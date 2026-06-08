@@ -1,0 +1,24 @@
+# Local environment files
+.env
+.env.
+credentials.json
+
+# Build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go dependency directories
+/bin/
+/pkg/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+.DS_Store

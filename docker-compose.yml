@@ -1,0 +1,12 @@
+services:
+  attendance-bot:
+    build: .
+    container_name: attendance-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./credentials.json:/app/credentials.json:ro
+      - ./.env:/app/.env:ro
+    environment:
+      - GOOGLE_CREDENTIALS_PATH=/app/credentials.json
