@@ -1,4 +1,4 @@
-# Telegram Attendance Bot for Uzcard Academy
+# Telegram Attendance Bot
 
 Проект реализует production-ready Telegram Attendance Bot на Go 1.25+, без базы данных. Все данные хранятся в Google Sheets.
 
